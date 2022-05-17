@@ -1,7 +1,6 @@
 console.log("FUNCTION - #1");
 function sumUntil(maxValue) {
-  let somma = 0,
-    value = maxValue + 1;
+  let somma = 0, value = maxValue + 1;
   for (i = 1; i < value; i++) {
     somma += i;
   }
